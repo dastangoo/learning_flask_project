@@ -8,7 +8,7 @@ db.init_app(app)
 
 app.secret_key = "development-key"
 
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://localhost/learningflask'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'ostgres://drymbuyzhnyctz:a7e6b4210ec17ed47a95be41f6871b74b5ac4869ab54e2925f9ccf1587622f3e@ec2-54-243-150-10.compute-1.amazonaws.com:5432/dfqu4rhlbuih3g'
 @app.route("/")
 def index():
   return render_template("index.html")
