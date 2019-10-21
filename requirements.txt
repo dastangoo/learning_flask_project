@@ -33,6 +33,6 @@ requests==2.19.1
 scp==0.12.1
 six==1.11.0
 textfsm==0.4.1
-urllib3==1.23
+urllib3==1.24.2
 virtualenv==16.1.0
 wrapt==1.10.11
